@@ -55,14 +55,7 @@ public class GameManger : MonoBehaviour
 
         if(currentScore == maxScore)
         {
-            if(currentSceneIndex == 2)
-            {
-                changeScene(0);
-            }
-            else
-            {
-                changeScene(currentSceneIndex + 1);
-            }
+            changeScene(currentSceneIndex + 1);
         }
     }
 
